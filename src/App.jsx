@@ -63,7 +63,18 @@ function App() {
               onChange={(e)=>setSearchInput(e.target.value)}
               style={{ backgroundColor: 'rgb(230, 240, 255, 0.3)'}}
               />
-              <Button onClick={search}>Search</Button>
+              <Button onClick={search}
+              style={{ 
+                backgroundColor: 'pink',
+                color: 'white',
+                border: '1px solid white',
+                borderRadius: '5px',
+                padding: '10px 20px',
+                frontSize: '16px',
+                cursor: 'pointer',
+              }}>
+                Search
+              </Button>
             </InputGroup>
         </div>
   
