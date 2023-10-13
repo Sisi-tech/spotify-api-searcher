@@ -16,3 +16,5 @@
 # Technologies Used
 - HTML, CSS, and JavaScript for the frontend.
 - Spotify API for artist data retrieval.
+- [Spotify API page](https://developer.spotify.com/documentation/web-api)
+  
